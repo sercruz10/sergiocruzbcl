@@ -10970,3 +10970,185 @@ section.resume-section .resume-section-content {
     padding-bottom: 5rem;
   }
 }
+
+body {
+  font-family: 'Muli', sans-serif;
+  color: #2c3e50;
+  background-color: #f5f7fa;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Saira Extra Condensed', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+h1 span.text-primary {
+  color: #c44a25; /* Braga-style red */
+}
+
+.navbar {
+  background-color: #c44a25;
+  border-right: 4px solid #962a1f;
+}
+
+.navbar-brand img {
+  border: 4px solid white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-nav .nav-item .nav-link {
+  color: #f5f5f5;
+  font-weight: 600;
+}
+
+.navbar-nav .nav-link.active {
+  color: #fff;
+  background-color: #962a1f;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+.resume-section-content {
+  padding: 40px;
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.05);
+  margin-bottom: 40px;
+}
+
+.subheading {
+  font-size: 1.1rem;
+  color: #444;
+  margin-bottom: 15px;
+}
+
+.social-icons a {
+  color: #c44a25;
+  font-size: 1.5rem;
+  margin-right: 15px;
+  transition: all 0.2s ease-in-out;
+}
+
+.social-icons a:hover {
+  color: #962a1f;
+  transform: scale(1.1);
+}
+
+.fa-ul > li {
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+
+.text-primary {
+  color: #c44a25 !important;
+}
+
+/* Responsive tweaks */
+@media (max-width: 992px) {
+  .navbar {
+    position: static;
+    width: 100%;
+  }
+
+  .resume-section-content {
+    padding: 20px;
+  }
+}
+/* Modern Resume CSS Upgrade – Soft Color Version */
+
+:root {
+  --bs-primary: #6C63FF;        /* Soft Indigo */
+  --bs-primary-rgb: 108, 99, 255;
+  --bs-dark: #374151;           /* Slate Gray */
+  --bs-dark-rgb: 55, 65, 81;
+  --bs-light: #F3F4F6;          /* Light Gray */
+  --bs-light-rgb: 243, 244, 246;
+  --bs-body-color: #1F2937;     /* Deep Slate */
+  --bs-body-color-rgb: 31, 41, 55;
+  --bs-body-bg: var(--bs-light);
+  --bs-body-bg-rgb: var(--bs-light-rgb);
+  --bs-link-color: var(--bs-primary);
+  --bs-link-hover-color: #5146e1; /* Slightly darker Indigo */
+  --bs-font-sans-serif: 'Miriam Libre', system-ui, sans-serif;
+}
+
+body {
+  background-color: var(--bs-body-bg);
+  color: var(--bs-body-color);
+  font-family: var(--bs-font-sans-serif);
+}
+
+/* Sidebar Styling */
+.sidebar {
+  background-color: var(--bs-dark);
+  color: var(--bs-light);
+}
+
+.sidebar .nav-link.active {
+  background-color: var(--bs-primary);
+  color: #fff;
+}
+
+/* Header Titles */
+h1, h2, h3, h4, h5, h6 {
+  color: var(--bs-dark);
+  font-family: 'Miriam Libre', sans-serif;
+}
+
+/* Highlighting Name Portion */
+h1 span {
+  color: var(--bs-primary);
+}
+
+/* Link Styling */
+a {
+  color: var(--bs-link-color);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--bs-link-hover-color);
+  text-decoration: underline;
+}
+
+/* Active Navigation Enhancements */
+.navbar-nav .nav-link.active {
+  background-color: var(--bs-primary);
+  color: #fff !important;
+  font-weight: bold;
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: var(--bs-primary);
+  border-color: var(--bs-primary);
+}
+
+.btn-primary:hover {
+  background-color: var(--bs-link-hover-color);
+  border-color: var(--bs-link-hover-color);
+}
+
+/* Section Headers */
+.section-title {
+  color: var(--bs-primary);
+  font-weight: bold;
+  border-bottom: 2px solid var(--bs-primary);
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+}
+.fabiocon {
+  width: 40px;
+  height: 40px;
+  background-color: var(--bs-primary);
+  color: #fff;
+  font-family: 'Miriam Libre', sans-serif;
+  font-size: 1.25rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.15);
+}
